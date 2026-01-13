@@ -1,0 +1,171 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+} 
+
+h3 {
+    font-size: 28px;
+}
+
+section {
+    padding: 0px 40px;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.item-name {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.item-ingredients {
+    font-size: 16px;
+    color:grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.item-price {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.emoji {
+    font-size: 72px;
+}
+
+.menu-item-details {
+    
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    
+    
+}
+
+.add-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid darkgray;   /* circular border */
+    border-radius: 50%;       /* makes it a circle */
+    background: transparent;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.add-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Your Order Design */
+.cart-heading {
+    text-align: center;
+}
+
+.remove-btn {
+    color: darkgray;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.order-item-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order {
+    display: flex;
+}
+
+.total-cont {
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.green-btn {
+    border: none;
+    background-color: #16DB99;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 16px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+/* Payment Form */
+.payment-form {
+    width: 320px;
+    height: 340px;
+    margin: 0 auto;
+    padding: 4px 20px;
+    box-shadow: 0px 0px 80px 40px lightgray;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.payment-form input {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 12px 8px;
+    width: 100%;
+    margin: 5px auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Success Message */
+.success-cont {
+    background-color: #ECFDF5;
+    width: 504px;
+    height: 80px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.success-msg {
+    color: #065F46;
+    font-size: 20px;
+}
+
+/* Utility Classes */
+.hide {
+    display: none;
+}
